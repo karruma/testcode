@@ -1,0 +1,52 @@
+{
+  "name": "ts-method-cache",
+  "version": "2.0.2",
+  "license": "Apache License",
+  "author": {
+    "name": "Karim",
+    "email": ""
+  },
+  "engines": {
+    "node": ">= 5.4.1"
+  },
+  "contributors": [],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:PierreDuc/ts-method-cache.git"
+  },
+  "homepage": "",
+  "bugs": "",
+  "description": "Data method caching logic based on TypeScript decorators",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "karma start"
+  },
+  "types": "dist/index.d.ts",
+  "private": false,
+  "keywords": [
+    "cache",
+    "memory",
+    "typescript",
+    "http",
+    "method"
+  ],
+  "peerDependencies": {
+    "typescript": "^2.2.0"
+  },
+  "devDependencies": {
+    "@types/jasmine": "2.5.53",
+    "@types/node": "8.0.15",
+    "jasmine-core": "2.6.4",
+    "typescript-memoize": "1.0.0-alpha.3",
+    "rxjs" : "5.4.3",
+    "cachefactory": "3.0.0",
+    "karma": "1.7.0",
+    "karma-chrome-launcher": "2.2.0",
+    "karma-cli": "1.0.1",
+    "karma-typescript": "3.0.4",
+    "karma-jasmine": "1.1.0",
+    "typescript": "2.4.2"
+  },
+  "false": {}
+}
