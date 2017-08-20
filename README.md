@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # TypeScript Method Cache
 
 Method cache using decorators for TypeScript. This comes in handy for a quick and easy to implement caching mechanism 
@@ -238,3 +239,7 @@ The rest is the same as `@MethodCache`
 ### `@StorageCache(options: CacheOptions | string)`
 The same as `@SessionCache`, but instead of the browser's native `SessionStorage` it uses the `LocalStorage` of the 
 browser. This can only be used inside the browser.
+=======
+# testcode
+testing the code
+>>>>>>> 2e46b871848c47cbab6a48b29683f9ebd369d637
